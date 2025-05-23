@@ -1,9 +1,9 @@
 # WAP to create user_define dict object
 
-dict = {}
+user_info = {}
 n = int(input("How many elements you want to enter: "))
 for i in range(0,n):
     k =input("Enter key values: ")
     d =input("Enter data values: ")
-    dict[k]=d
-print(dict)
+    user_info[k]=d
+print(user_info)
